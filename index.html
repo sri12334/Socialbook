@@ -25,10 +25,58 @@
             <img src="./public/images/search.png">
             <input type="text" placeholder="search">
           </div>
-          <div class="nav-user-icon online">
+          <div class="nav-user-icon online" onclick="settingsMenuToggle()">
             <img src="./public/images/profile-pic.png">
           </div>
          </div>
+      <!-- settings menu -->
+        <div class="settins-menu">
+
+        <div id="dark-btn" class="dark-btn-on">
+          <span></span>
+        </div>
+
+          <div class="settings-menu-inner">
+            <div class="user-profile">
+              <img src="./public/images/profile-pic.png" >
+              <div>
+                <p>John Nicholson</p>
+                <a href="#">See your Profile</a>
+              </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+              <img src="./public/images/feedback.png" >
+              <div>
+                <p>Give Feedback</p>
+                <a href="#"></a>
+              </div>
+            </div>
+          <hr>
+          
+        <div class="setting-links">
+          <img src="./public/images/setting.png" class="settings-icon">
+          <a href="#"> Settings and Privacy <img src="./public/images/arrow.png" width="10px"></a>
+        </div>
+
+        <div class="setting-links">
+          <img src="./public/images/help.png" class="settings-icon">
+          <a href="#"> Help and Support <img src="./public/images/arrow.png" width="10px"></a>
+        </div>
+
+        <div class="setting-links">
+          <img src="./public/images/display.png" class="settings-icon">
+          <a href="#"> display and Accessibility <img src="./public/images/arrow.png" width="10px"></a>
+        </div>
+
+        <div class="setting-links">
+          <img src="./public/images/logout.png" class="settings-icon">
+          <a href="#"> Logout <img src="./public/images/arrow.png" width="10px"></a>
+        </div>
+
+          </div>
+        </div>
+
     </nav>
 
     <div class="container">
@@ -96,13 +144,17 @@
         </div>
         
         <div class="post-container">
-          <div class="user-profile">
-            <img src="./public/images/profile-pic.png" >
-            <div>
-              <p>John Nicholson</p>
-              <span>June 24 2021, 13:40 pm</span>
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./public/images/profile-pic.png" >
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
             </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
           </div>
+          
 
           <p class="post-text">Subscribe <span>@John Nicholson </span>YouTube channel to watch more videos. <a href="#">#JohnNicholson</a> <a href="#">#YouTubeChannel</a></p>
           <img src="./public/images/feed-image-1.png" class="post-img">
@@ -114,12 +166,130 @@
                <div><img src="./public/images/share.png"> 20</div>
              </div>
              <div class="post-profile-icon">
+                <img src="./public/images/profile-pic.png">
+                <i class="fa-solid fa-caret-down"></i>
+             </div>
+          </div>
 
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./public/images/profile-pic.png" >
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+          </div>
+          
+
+          <p class="post-text">Like and share the videos, tag <span>@John Nicholson </span>facebook page on your post <a href="#">#JohnNicholson</a> <a href="#">#YouTubeChannel</a></p>
+          <img src="./public/images/feed-image-2.png" class="post-img">
+         
+          <div class="post-row">
+             <div class="activity-icons">
+               <div><img src="./public/images/like-blue.png"> 120</div>
+               <div><img src="./public/images/comments.png"> 40</div>
+               <div><img src="./public/images/share.png"> 20</div>
+             </div>
+             <div class="post-profile-icon">
+                <img src="./public/images/profile-pic.png">
+                <i class="fa-solid fa-caret-down"></i>
+             </div>
+          </div>
+
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./public/images/profile-pic.png" >
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+          </div>
+          
+
+          <p class="post-text">Like and share the videos, tag <span>@John Nicholson </span>facebook page on your post <a href="#">#JohnNicholson</a> <a href="#">#YouTubeChannel</a></p>
+          <img src="./public/images/feed-image-3.png" class="post-img">
+         
+          <div class="post-row">
+             <div class="activity-icons">
+               <div><img src="./public/images/like-blue.png"> 120</div>
+               <div><img src="./public/images/comments.png"> 40</div>
+               <div><img src="./public/images/share.png"> 20</div>
+             </div>
+             <div class="post-profile-icon">
+                <img src="./public/images/profile-pic.png">
+                <i class="fa-solid fa-caret-down"></i>
+             </div>
+          </div>
+
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./public/images/profile-pic.png" >
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+          </div>
+          
+
+          <p class="post-text">Like and share the videos, tag <span>@John Nicholson </span>facebook page on your post <a href="#">#JohnNicholson</a> <a href="#">#YouTubeChannel</a></p>
+          <img src="./public/images/feed-image-4.png" class="post-img">
+         
+          <div class="post-row">
+             <div class="activity-icons">
+               <div><img src="./public/images/like-blue.png"> 120</div>
+               <div><img src="./public/images/comments.png"> 40</div>
+               <div><img src="./public/images/share.png"> 20</div>
+             </div>
+             <div class="post-profile-icon">
+                <img src="./public/images/profile-pic.png">
+                <i class="fa-solid fa-caret-down"></i>
+             </div>
+          </div>
+
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./public/images/profile-pic.png" >
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+          </div>
+          
+
+          <p class="post-text">Like and share the videos, tag <span>@John Nicholson </span>facebook page on your post <a href="#">#JohnNicholson</a> <a href="#">#YouTubeChannel</a></p>
+          <img src="./public/images/feed-image-5.png" class="post-img">
+         
+          <div class="post-row">
+             <div class="activity-icons">
+               <div><img src="./public/images/like-blue.png"> 120</div>
+               <div><img src="./public/images/comments.png"> 40</div>
+               <div><img src="./public/images/share.png"> 20</div>
+             </div>
+             <div class="post-profile-icon">
+                <img src="./public/images/profile-pic.png">
+                <i class="fa-solid fa-caret-down"></i>
              </div>
           </div>
 
         </div>
 
+        <button type="button" class="loadmore-button">Load MORE</button>
 
       </div>
       <!-- right-sidebar -->
@@ -177,9 +347,13 @@
           <div class="online">
             <img src="./public/images/member-3.png" >
           </div>
-          <p>Samona</p>
+          <p>Samona Rose</p>
         </div>
       </div>
     </div>
+ <div class="footer">
+   <p>Copyright 2023 - Socialbook </p>
+</div>
+  <script src="script.js"></script>
 </body>
 </html>
