@@ -407,7 +407,7 @@ color: #9a9a9a;
     font-size: 13px;
 
 }
-.settins-menu{
+.settings-menu{
     position: absolute;
     width: 90%;
     max-width: 350px;
@@ -432,7 +432,7 @@ color: #9a9a9a;
     padding: 20px;
     
 }
-.settins-menu hr{
+.settings-menu hr{
     border: 0;
     height: 1px;
     background: #9a9a9a;
@@ -463,7 +463,7 @@ color: #626262;
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #000;
+    background: #ccc;
     width: 45px;
     border-radius: 15px;
     padding: 2px 3px;
